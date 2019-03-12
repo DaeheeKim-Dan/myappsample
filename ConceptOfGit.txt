@@ -20,7 +20,7 @@ Basic Commands
 $ git init          // Initialize Local Git Repository
 $ git add <file>    // Add File(s) To Index
 $ git status        // Check Status Of Working Tree
-$ git reset         // Delete all files from stage
+$ git reset         // Delete all files from Staging Area
 $ git commit        // Commit Changes In Index
 $ git push          // Push To Remote Repository
 $ git pull          // Pull Latest From Remote Repository
