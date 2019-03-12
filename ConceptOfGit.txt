@@ -1,0 +1,37 @@
+What GIT is...
+Version Control System(VCS) for tracking changes in computer files
+
+    Distributed version control
+    Coordinates work between multiple developers
+    Who made what changes and when
+    Revert back at any time
+    Local & remote repos
+
+
+Concept of GIT
+    Keeps track of code history
+    Take "snapshots" of your files
+    You decide when to take a snapshot by making a "commit"
+    You can visit any snapshot at any time
+    You can stage files before committing
+
+
+Basic Commands
+$ git init          // Initialize Local Git Repository
+$ git add <file>    // Add File(s) To Index
+$ git status        // Check Status Of Working Tree
+$ git commit        // Commit Changes In Index
+$ git push          // Push To Remote Repository
+$ git pull          // Pull Latest From Remote Repository
+$ git clone         // Clone Repository Into A New Directory
+
+
+Installing GIT
+    Linux(Debian)
+        $ sudo apt-get install git
+    Linux(Fedora)
+        $ sudo yum install git
+    Mac
+        http://git-scm.com/download/mac
+    Windows
+        http://fig-scm.com/download/win
