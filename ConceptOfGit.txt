@@ -25,6 +25,7 @@ $ git commit        // Commit Changes In Index
 $ git push          // Push To Remote Repository
 $ git pull          // Pull Latest From Remote Repository
 $ git clone         // Clone Repository Into A New Directory
+$ git log           // Checking git log
 
 Installing GIT
     Linux(Debian)
@@ -45,3 +46,5 @@ Need Help
     $ git help <verb>
     $ git <verb> --help
 
+Cloneing A Remote Repo
+    $ git clone <url> <where to clone>
