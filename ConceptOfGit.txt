@@ -20,11 +20,11 @@ Basic Commands
 $ git init          // Initialize Local Git Repository
 $ git add <file>    // Add File(s) To Index
 $ git status        // Check Status Of Working Tree
+$ git reset         // Delete all files from stage
 $ git commit        // Commit Changes In Index
 $ git push          // Push To Remote Repository
 $ git pull          // Pull Latest From Remote Repository
 $ git clone         // Clone Repository Into A New Directory
-
 
 Installing GIT
     Linux(Debian)
@@ -35,3 +35,13 @@ Installing GIT
         http://git-scm.com/download/mac
     Windows
         http://fig-scm.com/download/win
+
+Set Config Values
+    $ git config --global user.name "Daehee Kim"
+    $ git config --global user.email "daeheekim7978@gmail.com"
+    $ git config --list
+
+Need Help
+    $ git help <verb>
+    $ git <verb> --help
+
